@@ -1,0 +1,6 @@
+timm
+pymilvus==2.4.0
+openai-clip
+pillow
+numpy
+matplotlib
