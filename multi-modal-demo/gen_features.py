@@ -48,8 +48,8 @@ class CLIPFeatureExtractor():
         return features
 
 def prepare_milvus(overwrite=True):         
-    connections.connect("default", host="10.102.9.100", port="19530")
-    col_name = f'fashioniq'
+    connections.connect("default", host="10.102.6.136", port="19530")
+    col_name = f'multimodal'
 
     if overwrite == True:
         utility.drop_collection(col_name)

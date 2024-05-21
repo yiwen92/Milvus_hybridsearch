@@ -27,7 +27,7 @@ def show_images_horizontally(folder, width=15, height=5):
 
 def search_image(imgname, text, outdir, k):
     os.makedirs(outdir, exist_ok=True) 
-    connections.connect("default", host="10.102.9.100", port="19530")
+    connections.connect("default", host="10.102.6.136", port="19530")
     col_name = f'fashioniq'
     col = Collection(col_name)
     col.load()
