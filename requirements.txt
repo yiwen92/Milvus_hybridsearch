@@ -1,0 +1,6 @@
+torch
+datasets
+pymilvus==2.4.0
+milvus-model==0.2.0
+tqdm
+numpy
